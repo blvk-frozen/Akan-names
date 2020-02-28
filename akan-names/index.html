@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link rel="stylesheet" href="css/bootstrap.min.css"-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div>
+        <h1 class="myheader">Akan Name </h1>
+    </div>
+         
+    <div class="intro">
+        <h4>What is an Akan Name?</h4>
+        <p>An Akan name is a name given from the Ghanaian culture that is given to person durind their week born days.</p>
+    </div>
+
+    <div class="form">
+        <p>Enter your Date of Birth here :</p>
+        <input style="margin-bottom: 10px;" class="bg-success" style="border-radius: 25px; width: 100%;" type="date" id="myInput">
+        <p>Select Your Gender here :</p>
+        <select style="margin-bottom:10px; border-radius: 15px; width: 130px; text-align: center;">
+            <option onclick="maleisclicked();">Male</option>
+            <option onclick="femaleisclicked();">Female</option>
+        </select>
+        <p>Get Your Akan Name here :</p>
+        <button class="btn btn-success" type="button" onclick="genderselector();">Get Akan Name</button>
+    </div>
+
+    <div class="criteria">
+        <h4>What is the criteria for issuing an Akan Name?</h4>
+        
+        <p>The criteria used is that there are specific names given for each day of the week and they are different according to gender as below:</p>
+        <br>
+        <p><strong>For Male:</strong></p>
+        <p>Sunday: Kwasi</p>
+        <p>Monday: Kwadwo</p>    
+        <p>Tuesday: Kwabena</p>
+        <p>Wednesday: Kwaku</p>
+        <p>Thursday:  Yaw</p>
+        <p>Friday: Kofi</p>
+        <p>Saturday: Kwame</p>
+        <br>
+        <p><strong>For Female:</strong></p>
+        <br>
+        <p>Sunday: Akosua</p>
+        <p>Monday: Adwoa</p>
+        <p>Tuesday: Abenaa</p>
+        <p>Wednesday: Akua</p>
+        <p>Thursday: Yaa</p>
+        <p>Friday: Afua</p>
+        <p>Saturday: Ama</p>
+    </div>
+</div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
